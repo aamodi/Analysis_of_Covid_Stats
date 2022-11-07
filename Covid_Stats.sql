@@ -14,7 +14,7 @@ Select location, date, total_cases, total_deaths, (total_deaths/total_cases)*100
 From PortfolioProject..CovidDeaths
 Order by 2 Desc
 
---Comparing total cases with Population (Percentage pf population got effected) in pakistan
+--Comparing total cases with Population (Percentage of population get effected) in pakistan
 
 Select location, date, total_cases, population, (total_cases/population)*100 as CasePercentage
 From PortfolioProject..CovidDeaths
